@@ -1,27 +1,32 @@
+//import { Link} from "react-router-dom"
+
 function Navbar(){
 return(
     <>
     <div className="container">
 <div>
-    <img src="./japanlogo.webp"/>
+    <img src="./japanlogo.webp" className="image"/>
 </div>
 <div className="nav-2-container">
-    <div>
-        Jobs
+    <div className="jobs">
+  Jobs     
     </div>
-    <div>
-        Companies
+    <div className="companies">
+     Companies
     </div>
-    <div>
-        Blog
+    <div className="blog">
+    Blog
     </div>
-    <div>
+    <div className="login">
         Log In
+        
     </div>
-    <div>
-        <button>Register</button>
+    <div className="register">
+        <button className="button-register">Register</button>
     </div>
-    <div>Employers</div>
+    <div className="employee">
+ Employers
+       </div>
 </div>
     </div>
     </>
