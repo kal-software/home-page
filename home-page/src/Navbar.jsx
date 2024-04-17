@@ -25,7 +25,8 @@ return(
         <button className="button-register">Register</button>
     </div>
     <div className="employee">
- Employers
+ Employers<br/>
+ 雇用主
        </div>
 </div>
     </div>

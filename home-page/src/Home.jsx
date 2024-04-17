@@ -18,13 +18,13 @@ function Home(){
               <div className="inner-div">
 <div className="key-container">
     <p className="keywords">KEYWORDS</p>
-    <p className="lokking">What are you looking for?</p>
+    <input className="lokking" placeholder="What are you looking for?"/>
 </div>
-<div>
+<div className="job-container">
     <p className="job-category">JOB CATEGORY</p>
     <p className="identity">Choose an identity</p>
 </div>
-<div>
+<div className="location-contaier">
 <p className="job-location">JOB LOCATION</p>
     <p className="what-do-you-want">What do you want to work?</p>
 </div>
