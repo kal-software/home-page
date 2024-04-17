@@ -42,7 +42,7 @@
 }
 .body-container{
   background-color: rgb(13, 57, 253);
-  height: 400px;
+  height: 500px;
   margin-top:-10px;
   margin-left: -10px;
   margin-right: -10px;
@@ -57,4 +57,139 @@
   color:white;
   font-size: 18px;
   font-family: monospace;
+}
+.inner-div{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  margin-left: 30px;
+  padding-left: 10px;
+  width:1150px;
+  border-radius: 10px;
+
+}
+.keywords{
+  font-weight: bold;
+  padding-left:20px;
+  padding-top:10px;
+  font-family:arial;
+  font-size: 15px;
+}
+.lokking{
+  padding-left:20px;
+  font-family: arial;
+  font-size: 13px;
+  margin-top:-6px;
+  color:grey;
+
+}
+.job-location{
+  font-weight: bold;
+  padding-left:20px;
+  padding-top:10px;
+  font-family:arial;
+  font-size: 15px;
+}
+.what-do-you-want{
+  padding-left:20px;
+  font-family: arial;
+  font-size: 13px;
+  margin-top:-6px;
+  color:grey;
+}
+.job-category{
+  font-weight: bold;
+  padding-left:20px;
+  padding-top:10px;
+  font-family:arial;
+  font-size: 15px;
+}
+.identity{
+  padding-left:20px;
+  font-family: arial;
+  font-size: 13px;
+  margin-top:-6px;
+  color:grey;
+}
+.search-button{
+  margin-top: 30px;
+  background-color: rgb(0, 110, 255);
+  color:white;
+  border:none;
+  padding:6px 10px;
+  border-radius:6px;
+  font-weight:600;
+  cursor: pointer;
+}
+.search{
+  font-weight:600;
+   
+}
+.time-container{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.full-time{
+  background-color: white;
+  padding-left:20px;
+  font-family: arial;
+padding-top:10px;
+border-radius:5px ;
+}
+.part-time{
+  background-color: white;
+  padding-left:20px;
+  font-family: arial;
+padding-top:10px;
+border-radius:5px ;
+margin-left: 20px;
+width:80px;
+}
+.book-time{
+  background-color: white;
+  padding-left:20px;
+  font-family: arial;
+padding-top:10px;
+border-radius:5px ;
+margin-left: 40px;
+width:85px;
+}
+.visa-time{
+  background-color: white;
+  padding-left:20px;
+  font-family: arial;
+padding-top:10px;
+border-radius:5px ;
+margin-left: 65px;
+width:90px;
+}
+
+.no-time{
+  background-color: white;
+  padding-left:20px;
+  font-family: arial;
+padding-top:10px;
+border-radius:5px ;
+margin-left: 95px;
+width:90px;
+}
+.over-time{
+  background-color: white;
+  padding-left:20px;
+  font-family: arial;
+padding-top:10px;
+border-radius:5px ;
+margin-left: 125px;
+width:90px;
+}
+.time-icon{
+  font-size:20px;
+  margin-left: 15px;
+  color:rgb(0, 64, 255);
+}
+.full-timep{
+  margin-top: 6px;
+  margin-left: -8px;
 }
